@@ -1,3 +1,44 @@
+  322  mkdir git-practice-darianrd
+  323  cd git-practice-darianrd
+  339  mv GitPractice-darianrd git-practice-darianrd
+  340  cd git-practice-darianrd
+  342  git init
+  346  git status
+  347  git add .
+  348  git commit -m "Create new files"
+  349  git status
+  350  git log
+  355  git status
+  356  git add file_1.txt
+  357  git commit -m "Modify file_1.txt"
+  358  git status
+  359  git add file_2.txt
+  360  git commit -m "Modify file_2.txt"
+  361  git log
+  364  git add .
+  365  git commit -m "Add readme file"
+  366  touch .gitignore
+  367  nano .gitignore
+  368  git add .
+  369  git commit -m "Add gitignore file"
+  371  git status
+  373  git add .
+  374  git commit -m "Create text file for API keys"
+  375  git status
+  376  git switch -c features
+  377  git log
+  379  git add .
+  380  git commit -m "Add empty file"
+  382  git add .
+  383  git commit -m "Modify features.txt"
+  384  git switch main
+  386  git status
+  387  git add .
+  388  git commit -m "Add line to file_1.txt"
+  389  git merge features
+  390  git log
+  398  git add .
+  399  git commit -m "Modify new_features.txt"
   400  git switch features
   403  git add .
   404  git commit -m "Modify new_features.txt"
@@ -11,3 +52,7 @@
   413  git push -u origin main
   414  git pull
   415  git log --oneline > gitlog.txt
+  416  history | grep git > history.txt
+  417  git add .
+  418  git commit -m "Export command line history"
+  419  git push
