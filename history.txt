@@ -1,0 +1,13 @@
+  400  git switch features
+  403  git add .
+  404  git commit -m "Modify new_features.txt"
+  405  git switch main
+  406  git merge features
+  408  git add .
+  409  git commit -m "Modify new_features.txt to align with features branch"
+  410  git merge features
+  411  git branch -d features
+  412  git remote add origin git@github.com:darianrd/git-practice-darianrd.git
+  413  git push -u origin main
+  414  git pull
+  415  git log --oneline > gitlog.txt

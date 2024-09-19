@@ -1,0 +1,12 @@
+35dff57 Modify new_features.txt to align with features branch
+69ab584 Modify new_features.txt
+b593d23 Modify new_features.txt
+e0bbf85 Merge branch 'features' Merge features branch with main branch.
+ed8c5a1 Add line to file_1.txt
+f1789d2 Modify features.txt
+3c51840 Add empty file
+ce0c313 Add gitignore file
+168c45f Add readme file
+8757222 Modify file_2.txt
+f70447d Modify file_1.txt
+c2cf9e6 Create new files
